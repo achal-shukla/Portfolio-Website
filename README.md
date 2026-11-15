@@ -4,9 +4,13 @@ A personal portfolio website showcasing my skills, projects, internships, certif
 
 Built using **Java, Spring Boot, MySQL, HTML, CSS, and JavaScript**.
 
+## Live Demo
+
+**Live Website:** https://portfolio-website-smz6.onrender.com
+
 ## Overview
 
-This portfolio provides an interactive platform to explore my technical skills, projects, experience, and achievements. It also includes a contact form that allows visitors to send messages, which are stored in a MySQL database.
+This portfolio provides an interactive platform to explore my technical skills, projects, experience, and achievements. It also includes a contact form that allows visitors to send messages, which are stored in a MySQL-compatible database.
 
 ## Features
 
@@ -20,7 +24,7 @@ This portfolio provides an interactive platform to explore my technical skills, 
 - Certifications section
 - Downloadable resume
 - Contact form with input validation
-- Contact messages stored in MySQL database
+- Contact messages stored in the database
 - Dedicated GitHub, LinkedIn, and email links
 
 ## Tech Stack
@@ -30,10 +34,12 @@ This portfolio provides an interactive platform to explore my technical skills, 
 | Java 17 | Backend programming |
 | Spring Boot | Backend framework |
 | Maven | Dependency management and build |
-| MySQL 8 | Database |
+| MySQL 8 / TiDB Cloud | Database |
 | HTML5 | Website structure |
 | CSS3 | Styling and animations |
 | JavaScript | Interactivity and form validation |
+| Docker | Application containerization |
+| Render | Backend hosting |
 
 ## Project Structure
 
@@ -59,6 +65,7 @@ Portfolio-Website/
 │           └── application.properties
 │
 ├── .gitignore
+├── Dockerfile
 ├── pom.xml
 └── README.md
 ```
